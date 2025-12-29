@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random pass gen</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cont">
+      <select name="" id="sel">
+        <option value="none">Select a option</option>
+
+        <option value="num">Number</option>
+
+        <option value="str">Alphanumeric</option>
+        <option value="mixStrong">Mixed - (#Rt8$K>B)</option>
+      </select>
+      <br />
+
+      <span> Plz select type</span>
+      <br />
+
+      <label for="tex">Enter length</label>
+      <br />
+      <input type="text" id="tex" class="inp" /> <br />
+      <button id="genBtn">Generate password</button>
+
+      <p><b>Your pass is: </b></p>
+      <p id="yourPass"></p>
+      <button id="copyBtn">copy</button>
+
+      <h6>Made by ANIL with ❤️</h6>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

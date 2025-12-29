@@ -1,0 +1,134 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+      }
+
+      /* Center full page */
+      body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+      }
+
+      /* Main card */
+      .cont {
+        background: #ffffff;
+        padding: 1.8rem 2rem;
+        border-radius: 16px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+        width: 320px;
+        text-align: center;
+      }
+
+      /* Dropdown, input */
+      select,
+      .inp {
+        width: 100%;
+        padding: 0.6rem 0.7rem;
+        margin: 0.4rem 0 0.8rem 0;
+        border-radius: 10px;
+        border: 1px solid #cbd5e0;
+        font-size: 0.95rem;
+        outline: none;
+        transition: border 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      select:focus,
+      .inp:focus {
+        border-color: #667eea;
+        box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.3);
+      }
+
+      /* Error text */
+      span {
+        color: #e53e3e;
+        font-size: 0.85rem;
+        display: none;
+      }
+
+      /* Labels + text */
+      label {
+        font-size: 0.9rem;
+        color: #4a5568;
+        margin-top: 0.4rem;
+        display: inline-block;
+      }
+
+      p {
+        margin-top: 0.7rem;
+        font-size: 0.95rem;
+        color: #2d3748;
+      }
+
+      /* Generated password text */
+      #yourPass {
+        margin-top: 0.3rem;
+        min-height: 1.2rem;
+        font-family: "Consolas", "Courier New", monospace;
+        background: #f7fafc;
+        padding: 0.5rem 0.6rem;
+        border-radius: 8px;
+        border: 1px dashed #cbd5e0;
+        word-break: break-all;
+      }
+
+      /* Buttons */
+      #genBtn,
+      #copyBtn {
+        margin-top: 0.7rem;
+        padding: 0.6rem 0.9rem;
+        border-radius: 999px;
+        border: none;
+        cursor: pointer;
+        font-size: 0.9rem;
+        font-weight: 600;
+        transition: transform 0.1s ease, box-shadow 0.15s ease,
+          opacity 0.15s ease;
+      }
+
+      /* Generate button style */
+      #genBtn {
+        width: 100%;
+        background: #667eea;
+        color: #ffffff;
+        box-shadow: 0 8px 18px rgba(102, 126, 234, 0.45);
+      }
+
+      /* Copy button style */
+      #copyBtn {
+        background: #edf2f7;
+        color: #2d3748;
+        margin-left: 0;
+      }
+
+      h6 {
+        margin-top: 10px;
+        font-weight: normal;
+      }
+
+      /* Hover / active effects */
+      #genBtn:hover,
+      #copyBtn:hover {
+        opacity: 0.93;
+        transform: translateY(-1px);
+        box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+      }
+
+      #genBtn:active,
+      #copyBtn:active {
+        transform: translateY(0);
+        box-shadow: none;
+      }
+
+      @media (max-width: 400px) {
+        .cont {
+          width: 92%;
+          padding: 1.4rem 1.2rem;
+          text-align: center;
+        }
+      }
