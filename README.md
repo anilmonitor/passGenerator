@@ -1,5 +1,41 @@
-# initialized new project
+# 🔐 Random Password Generator 
 
-# made random pass Generator
+A simple and secure Random Password Generator that allows users to generate strong passwords by selecting their preferred password type and length.
 
-technology used - HTML, CSS, JS, crypto-random-string External JS Library
+# ✨ Features
+Generate passwords with custom length
+Multiple password types:
+Numeric.
+Alphanumeric.
+Strong Mixed (symbols + characters).
+One-click copy to clipboard.
+Clean and responsive UI.
+
+# 🛠️ Technologies Used
+
+HTML5
+CSS3
+JavaScript (ES Modules)
+crypto-random-string (via CDN)
+
+# 🌐 Live Demo
+Netlify: https://passgeneratorbymonitor.netlify.app/
+Vercel: https://passgeneratorbymonitor.vercel.app/
+
+📂 Project Structure
+passGenerator/
+│── index.html
+│── style.css
+│── app.js
+│── package.json
+│── .gitignore
+
+# 🚀 How to Run Locally
+git clone https://github.com/anilmonitor/passGenerator.git
+cd passGenerator
+
+Open index.html in your browser.
+
+# 👤 Author
+Anil Kumar - Linkedin : @anilmonitorr | IG: @anilmonitor
+Passionate Web Developer 🚀
