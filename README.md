@@ -22,13 +22,6 @@ crypto-random-string (via CDN)
 Netlify: https://passgeneratorbymonitor.netlify.app/
 Vercel: https://passgeneratorbymonitor.vercel.app/
 
-📂 Project Structure
-passGenerator/
-│── index.html
-│── style.css
-│── app.js
-│── package.json
-│── .gitignore
 
 # 🚀 How to Run Locally
 git clone https://github.com/anilmonitor/passGenerator.git
